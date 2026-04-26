@@ -7,27 +7,24 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "За несколько минут мы превратили данные в практические выводы. Процесс был бесшовным и невероятно эффективным!",
+        "Заказывала букет на день рождения подруги — флористы помогли выбрать идеальный состав. Подруга была в восторге, а я стала постоянным покупателем!",
       name: "Анна Петрова",
-      company: "Сооснователь, TechStart",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_35_19%20AM-z4zSRLsbOQDp7MJS1t8EXmGNB6Al9Z.png",
+      company: "Постоянный покупатель",
+      image: "/professional-woman-avatar-with-short-brown-hair-an.jpg",
     },
     {
       quote:
-        "Бриллиант революционизировал работу с индивидуальными контрактами. Автоматизация экономит нам часы каждую неделю и полностью исключает ошибки.",
-      name: "Сергей Иванов",
-      company: "Директор по операциям, DataFlow",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2010_54_18%20AM-nbiecp92QNdTudmCrHr97uekrIPzCP.png",
+        "Брали шары и свечи на свадьбу. Всё оформили быстро, красиво и с душой. Гости до сих пор спрашивают, где мы всё это нашли — рекомендую только «ВерАлекс»!",
+      name: "Сергей и Марина",
+      company: "Молодожёны",
+      image: "/professional-man-avatar-with-beard-and-glasses-loo.jpg",
     },
     {
       quote:
-        "Автоматизация биллинга — это настоящий прорыв. То, что раньше занимало у команды дни, теперь происходит автоматически с идеальной точностью.",
+        "Купила набор свечей «Уютный вечер» — теперь это мой любимый ритуал после работы. Аромат ванили создаёт такую атмосферу, что домой хочется возвращаться!",
       name: "Мария Козлова",
-      company: "Финансовый директор, InnovateCorp",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_01_05%20AM-TBOe92trRxKn4G5So1m9D2h7LRH4PG.png",
+      company: "Верный клиент",
+      image: "/professional-person-avatar-with-curly-hair-and-war.jpg",
     },
   ];
 

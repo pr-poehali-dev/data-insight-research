@@ -22,19 +22,19 @@ export default function DocumentationSection() {
 
   const cards = [
     {
-      title: "Планируйте расписание",
-      description: "Исследуйте данные, создавайте дашборды,\nобъединяйте команду.",
-      image: "/modern-dashboard-interface-with-data-visualization.jpg",
+      title: "Свежие цветы и букеты",
+      description: "Розы, лилии, герберы — каждый цветок\nотбираем вручную с любовью.",
+      image: "https://cdn.poehali.dev/projects/8e3ccb4b-8c5c-4599-83a2-5226564d5eef/files/82944ff3-98b6-4ecf-8619-e7c92afe8c42.jpg",
     },
     {
-      title: "От данных к инсайтам за минуты",
-      description: "Превращайте сырые данные в действенные выводы\nс помощью мощных инструментов аналитики.",
-      image: "/analytics-dashboard.png",
+      title: "Ароматические свечи",
+      description: "Ваниль, лес, классический воск —\nнаполните дом уютом и теплом.",
+      image: "https://cdn.poehali.dev/projects/8e3ccb4b-8c5c-4599-83a2-5226564d5eef/files/15933de7-d9e4-47eb-84ef-a97d1cbdad79.jpg",
     },
     {
-      title: "Работайте вместе без усилий",
-      description: "Работайте в режиме реального времени с командой\nи делитесь инсайтами мгновенно.",
-      image: "/team-collaboration-interface-with-shared-workspace.jpg",
+      title: "Воздушные шары и декор",
+      description: "Латексные и фольгированные шары —\nсоздайте праздничную атмосферу.",
+      image: "https://cdn.poehali.dev/projects/8e3ccb4b-8c5c-4599-83a2-5226564d5eef/files/d7a19ae6-519f-4174-bb53-64efa2336084.jpg",
     },
   ];
 
@@ -61,15 +61,15 @@ export default function DocumentationSection() {
             icon={
               <div className="w-[10.50px] h-[10.50px] outline outline-[1.17px] outline-[#37322F] outline-offset-[-0.58px] rounded-full"></div>
             }
-            text="Возможности платформы"
+            text="Наши категории"
           />
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-            Оптимизируйте бизнес-процессы
+            Всё для вашего праздника
           </div>
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Управляйте расписанием, анализируйте данные и работайте с командой
+            Букеты, свечи и воздушные шары — выберите то,
             <br />
-            на одной мощной платформе.
+            что подарит настоящие эмоции вашим близким.
           </div>
         </div>
       </div>
@@ -119,14 +119,11 @@ export default function DocumentationSection() {
           {/* Правая колонка - изображение */}
           <div className="w-full md:w-auto rounded-lg flex flex-col justify-center items-center gap-2 order-1 md:order-2">
             <div className="w-full md:w-[580px] h-[250px] md:h-[420px] bg-white shadow-[0px_0px_0px_0.9056603908538818px_rgba(0,0,0,0.08)] overflow-hidden rounded-lg flex flex-col justify-start items-start">
-              <div
-                className={`w-full h-full transition-all duration-300 ${
-                  activeCard === 0
-                    ? "bg-gradient-to-br from-blue-50 to-blue-100"
-                    : activeCard === 1
-                      ? "bg-gradient-to-br from-purple-50 to-purple-100"
-                      : "bg-gradient-to-br from-green-50 to-green-100"
-                }`}
+              <img
+                key={activeCard}
+                src={cards[activeCard].image}
+                alt={cards[activeCard].title}
+                className="w-full h-full object-cover transition-all duration-500"
               />
             </div>
           </div>
